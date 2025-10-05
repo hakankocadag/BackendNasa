@@ -26,7 +26,7 @@ IMAGEN_API_URL = f"{GEMINI_API_BASE_URL}/{IMAGEN_MODEL_NAME}:predict"
 # ----------------------------
 # Config & Data Loading
 # ----------------------------
-CSV_PATH = os.getenv("CSV_PATH", "1abilene_weather_january_2024.csv")
+CSV_PATH = os.getenv("CSV_PATH", "NASA_dataset.csv")
 
 try:
     df = pd.read_csv(CSV_PATH, encoding="utf-8")
