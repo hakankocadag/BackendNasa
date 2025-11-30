@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-High%20Performance-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 A robust, AI-enhanced backend API developed during the NASA Space Apps Hackathon. This project provides climatological analysis to help event planners assess the risk of disruptive weather, using historical weather data and AI-generated advice.
 
