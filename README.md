@@ -5,9 +5,10 @@
 
 A robust, AI-enhanced backend API developed during the NASA Space Apps Hackathon. This project provides climatological analysis to help event planners assess the risk of disruptive weather, using historical weather data and AI-generated advice.
 
-> ⚠️ **Note:** This project was backend-focused for the NASA Space Apps Hackathon. There is **no frontend** in this repository. All functionality is accessible via API endpoints.  
+> ⚠️ **Note:** This project was backend-focused for the NASA Space Apps Hackathon. All functionality is accessible via API endpoints.  
 > While we wished to further expand this project, this repository documents the completed hackathon submission.  
-> Generative AI usage was **permissible** in the hackathon. For this project, AI (Google Gemini 2 and GPT-5) was used **to assist in writing code** as well as for AI-driven advice generation.
+> Generative AI usage was **permissible** in the hackathon. For this project, AI (Google Gemini 2 and GPT-5) was used **to assist in writing code** as well as for AI-driven advice generation.  
+> The frontend for this project is developed separately and can be found here: [NASA Hackathon Frontend](https://github.com/JosephBaharloo/NasaProject)
 
 ---
 
@@ -16,7 +17,7 @@ A robust, AI-enhanced backend API developed during the NASA Space Apps Hackathon
 - **Climatology Query Engine:** Calculates historical averages and probabilities for a target date using a user-defined window (e.g., 7 days before and after the date across all years).  
 - **Geospatial Matching:** Uses the Haversine formula to find the nearest historical weather station data based on user-provided latitude and longitude.  
 - **Circular Date Handling:** Correctly handles the circular nature of the Day of Year (DOY) for climatology windows that wrap around the start/end of the year.  
-- **AI-Powered Advice:** Integrates with the Google Gemini API to transform calculated probabilities (e.g., 40% chance of rain) into a single, conversational paragraph suitable for event organizers.  
+- **AI-Powered Advice:** Integrates with **Google Gemini 2** and **GPT-5** to transform calculated probabilities (e.g., 40% chance of rain) into a single, conversational paragraph suitable for event organizers.  
 - **Real-time Data Access:** `/climatology/series` endpoint allows retrieval of all historical data points used in calculations for visualization and debugging.  
 - **Robust Backend:** Built on FastAPI with asynchronous I/O (`httpx`) and retry logic for external API calls.
 
@@ -26,7 +27,7 @@ A robust, AI-enhanced backend API developed during the NASA Space Apps Hackathon
 
 - **Framework:** FastAPI for API development and Pydantic validation  
 - **Data Science:** Pandas and NumPy for data loading, filtering, and statistical analysis  
-- **AI Integration:** Google Gemini API (`gemini-2.5-flash-preview-05-20`) for human-friendly advice  
+- **AI Integration:** Google Gemini 2 and GPT-5 for human-friendly advice and code assistance  
 - **Geospatial Logic:** Haversine distance calculation for location mapping  
 - **Asynchronous I/O:** `httpx` for non-blocking API calls
 
