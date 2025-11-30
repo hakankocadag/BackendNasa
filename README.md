@@ -7,7 +7,7 @@ A robust, AI-enhanced backend API developed during the NASA Space Apps Hackathon
 
 > ⚠️ **Note:** This project was backend-focused for the NASA Space Apps Hackathon. All functionality is accessible via API endpoints.  
 > While we wished to further expand this project, this repository documents the completed hackathon submission.  
-> Generative AI usage was **permissible** in the hackathon. For this project, AI (Google Gemini 2 and GPT-5) was used **to assist in writing code** as well as for AI-driven advice generation.  
+> Generative AI usage was **permissible** in the hackathon. For this project, AI (Google Gemini 2 and GPT-5) was used **to assist in writing code**.  
 > The frontend for this project is developed separately and can be found here: [NASA Hackathon Frontend](https://github.com/JosephBaharloo/NasaProject)
 
 ---
