@@ -6,7 +6,7 @@
 A robust, AI-enhanced backend API developed during the NASA Space Apps Hackathon. This project provides climatological analysis to help event planners assess the risk of disruptive weather, using historical weather data and AI-generated advice.
 
 > ⚠️ **Note:** This project was backend-focused for the hackathon. There is **no frontend** in this repository. All functionality is accessible via API endpoints.  
-> While we wished to further expand this project, this repository documents the completed hackathon submission.
+> While i wished to further expand my part of this project, this repository documents the completed submission.
 
 ---
 
