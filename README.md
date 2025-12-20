@@ -1,18 +1,18 @@
-# ☔ Will It Rain on My Parade? - NASA Hackathon Backend API
+# Will It Rain on My Parade? - NASA Hackathon Backend API
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-High%20Performance-green)
 
 A robust, AI-enhanced backend API developed during the NASA Space Apps Hackathon. This project provides climatological analysis to help event planners assess the risk of disruptive weather, using historical weather data and AI-generated advice.
 
-> ⚠️ **Note:** This project was backend-focused for the NASA Space Apps Hackathon. All functionality is accessible via API endpoints.  
+> **Note:** This project was backend-focused for the NASA Space Apps Hackathon. All functionality is accessible via API endpoints.  
 > While we wished to further expand this project, this repository documents the completed hackathon submission.  
 > Generative AI usage was **permissible** in the hackathon. For this project, AI (Google Gemini 2 and GPT-5) was used **to assist in writing code**.  
 > The frontend for this project is developed separately and can be found here: [NASA Hackathon Frontend](https://github.com/JosephBaharloo/NasaProject)
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 - **Climatology Query Engine:** Calculates historical averages and probabilities for a target date using a user-defined window (e.g., 7 days before and after the date across all years).  
 - **Geospatial Matching:** Uses the Haversine formula to find the nearest historical weather station data based on user-provided latitude and longitude.  
@@ -23,7 +23,7 @@ A robust, AI-enhanced backend API developed during the NASA Space Apps Hackathon
 
 ---
 
-## 💻 Architecture & Technology Stack
+## Architecture & Technology Stack
 
 - **Framework:** FastAPI for API development and Pydantic validation  
 - **Data Science:** Pandas and NumPy for data loading, filtering, and statistical analysis  
@@ -33,7 +33,7 @@ A robust, AI-enhanced backend API developed during the NASA Space Apps Hackathon
 
 ---
 
-## 🛠️ Setup and Installation
+## Setup and Installation
 
 ### Prerequisites
 
